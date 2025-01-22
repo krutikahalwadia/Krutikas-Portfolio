@@ -33,7 +33,7 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
           <span>Krutika Halwadia</span>
 
-          <span>
+          <span style={{ color: darkMode ? "white" : "" }}>
           Frontend Developer with extensive experience in web design and development, specializing in creating responsive, user-friendly interfaces.<br/>
           Proven track record of delivering high-quality, efficient code and ensuring optimal performance across multiple platforms and devices.<br/>
           Adept at translating design concepts into seamless, interactive web experiences while maintaining a focus on accessibility, user experience (UX).<br/>
