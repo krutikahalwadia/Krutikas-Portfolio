@@ -6,7 +6,7 @@
         gap: 5rem;
         height: 30vh;
         margin-top: -17rem;
-        margin-left: -63rem;
+        margin-left: -20rem;
         margin-bottom: 4rem;
         color: var(--black);
 }
@@ -54,6 +54,6 @@
 }
 @media screen and (max-height: 800px) {
     .experience {
-        margin-top: -140px; /* Adjust the value as needed */
+        margin-top: 52px;
     }
 }

@@ -15,6 +15,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 import Resume from './resume.pdf';
 import Typed from "typed.js"; 
+import Experience from "../Experience/Experience";
 const Intro = () => {
   // Transition
   const transition = { duration: 2, type: "spring" };
@@ -45,7 +46,7 @@ const Intro = () => {
         <a href={Resume} download className="button1 ">
                   <button className="button s-button">Download CV</button>
         </a>
-
+      <Experience/>
         {/* social icons */}
        
       </div>
