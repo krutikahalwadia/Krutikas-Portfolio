@@ -81,6 +81,18 @@ const Services = () => {
             color="rgba(252, 166, 31, 0.45)"
           />
         </motion.div>
+        {/* fourth card */}
+        <motion.div
+          initial={{ left: "10rem", top: "12rem" }}
+          whileInView={{ left: "30rem" }}
+          transition={transition}
+        >
+          <Card
+            emoji={Glasses}
+            heading={"Tools"}
+            detail={"MS-office, Github, Chat-gpt"}
+          />
+        </motion.div>
         <div
           className="blur s-blur2"
           style={{ background: "var(--purple)" }}
