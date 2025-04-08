@@ -43,6 +43,7 @@
 /* right sided */
 .cards {
   position: relative;
+  margin-left: 20rem;
 }
 .cards > * {
   position: absolute;

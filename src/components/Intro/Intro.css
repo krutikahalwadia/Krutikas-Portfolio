@@ -2,6 +2,7 @@
   display: flex;
   height: 77vh;
   margin-top: 4rem;
+  /* margin-bottom: 8rem; */
 }
 
 /* left side styling */
@@ -111,6 +112,7 @@
     flex-direction: column;
     gap: 7rem;
     height: 64rem;
+    margin-bottom: 0rem;
   }
 .i-name > :nth-child(3) {
   width: 105%;
@@ -147,5 +149,10 @@
     /* display: none; */
     margin-left: 5rem;
     top: -4rem !important;;
+  }
+}
+@media screen and (max-height: 800px) {
+  .Intro {
+    margin-bottom: 8rem; /* Adjust the value as needed */
   }
 }
