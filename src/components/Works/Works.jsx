@@ -17,34 +17,7 @@ const Works = () => {
   return (
     <div className="works" id="works">
       {/* left side */}
-      <div className="w-left">
-        <div className="awesome">
-          {/* dark Mode */}
-          <span style={{ color: darkMode ? "white" : "" }}>
-            Works Using all the technologies
-          </span>
-          <span>Skillsets</span>
-          <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
-            <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
-            <br />
-            y dummy text of printingLorem
-            <br />
-            ispum is simpley dummy text of printing
-          </spane>
-          {/* <Link to="contact" smooth={true} spy={true}>
-            <button className="button s-button">Hire Me</button>
-          </Link> */}
-          <div
-            className="blur s-blur1"
-            style={{ background: "#ABF1FF94" }}
-          ></div>
-        </div>
-
-        {/* right side */}
-      </div>
+      
       <div className="w-right">
         <motion.div
           initial={{ rotate: 45 }}

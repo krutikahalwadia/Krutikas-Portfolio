@@ -7,6 +7,7 @@ import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
+import Works from "../Works/Works"; // Adjust the path based on your project structure
 // import Resume from './resume.pdf';
 
 const Services = () => {
@@ -28,16 +29,14 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>My </span>
         <span>Experties</span>
         <span>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
-          <br />
-          ispum is simpley dummy text of printing
+        <Works /> 
         </span>
         {/* <a href={Resume} download>
           <button className="button s-button">Download CV</button>
         </a> */}
-        <Link to="contact" smooth={true} spy={true}>
+        {/* <Link to="contact" smooth={true} spy={true}>
                   <button className="button i-button">Hire me</button>
-        </Link>
+        </Link> */}
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
       {/* right */}
@@ -46,6 +45,7 @@ const Services = () => {
         <motion.div
           initial={{ left: "25rem" }}
           whileInView={{ left: "14rem" }}
+          animate={{ left: "14rem" }} // Ensures it stays at the final position
           transition={transition}
         >
           <Card
@@ -58,6 +58,7 @@ const Services = () => {
         <motion.div
           initial={{ left: "-11rem", top: "12rem" }}
           whileInView={{ left: "-4rem" }}
+          animate={{ left: "14rem" }} // Ensures it stays at the final position
           transition={transition}
         >
           <Card
@@ -70,6 +71,7 @@ const Services = () => {
         <motion.div
           initial={{ top: "19rem", left: "25rem" }}
           whileInView={{ left: "12rem" }}
+          animate={{ left: "14rem" }} // Ensures it stays at the final position
           transition={transition}
         >
           <Card
@@ -85,6 +87,7 @@ const Services = () => {
         <motion.div
           initial={{ left: "10rem", top: "12rem" }}
           whileInView={{ left: "30rem" }}
+          animate={{ left: "14rem" }} // Ensures it stays at the final position
           transition={transition}
         >
           <Card
