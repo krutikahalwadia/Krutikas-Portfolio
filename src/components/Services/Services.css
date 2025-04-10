@@ -6,7 +6,7 @@
   margin-top: 9rem;
   margin-bottom: 13rem; */
   /* scroll view */
-  padding-top: 3rem;
+  padding-top: 1rem;
   margin-bottom: 11rem;
 }
 /* left side */
@@ -45,6 +45,7 @@
 .cards {
   position: relative;
   margin-left: 20rem;
+  margin-top: 5rem;
 }
 .cards > * {
   position: absolute;

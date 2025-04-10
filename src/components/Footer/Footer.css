@@ -1,9 +1,9 @@
 .footer {
   display: flex;
   align-items: center;
-  margin: -0.5rem -3.5rem;
+  margin: -9.5rem -3.5rem;
   position: relative;
-  margin-top: -7rem;
+  margin-top: -25rem;
 }
 .f-content {
   position: absolute;
